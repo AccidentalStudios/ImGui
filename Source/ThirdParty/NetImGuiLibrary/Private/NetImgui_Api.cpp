@@ -319,7 +319,7 @@ void EndFrame(void)
 			if( imDrawData )
 			{
 				imDrawData->CmdLists.resize(0);
-				imDrawData->CmdListsCount = 0;
+				imDrawData->CmdLists.Size = 0;
 				imDrawData->TotalIdxCount = 0;
 				imDrawData->TotalVtxCount = 0;
 			}

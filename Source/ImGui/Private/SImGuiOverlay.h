@@ -17,7 +17,7 @@ struct FImGuiDrawList
 	ImVector<ImDrawVert> VtxBuffer;
 	ImVector<ImDrawIdx> IdxBuffer;
 	ImVector<ImDrawCmd> CmdBuffer;
-	ImDrawListFlags Flags = ImDrawListFlags_None;
+	ImDrawFlags Flags = ImDrawFlags_None;
 };
 
 struct FImGuiDrawData
